@@ -1,0 +1,83 @@
+body{
+    width: 100%;
+}
+
+/*信息查看板块*/
+.userleft{
+    margin-top: 150px;
+    width: 300px;
+    float: left;
+    font-size: 20px;
+    border: #BDCEFC;
+    margin-left: 200px;
+}
+.userManagement>span{
+    float: left;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.on{
+    width: 300px;
+    height: 50px;
+    background: cornflowerblue;
+}
+/*右侧信息框*/
+.userright{
+    margin-top: 150px;
+    width: 600px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+}
+.san{
+    width: 600px;
+    height: 300px;
+}
+.userselect{
+    width: 600px;
+    height: 300px;
+    background: cornflowerblue;
+}
+.userselect>ul>li{
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+}
+.userxg{
+    width: 600px;
+    height: 300px;
+    background: cornflowerblue;
+}
+.userxg>ul>li{
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+}
+.userxg>ul>li>input{
+    width: 400px;
+    height: 25px;
+    font-size: 15px;
+    line-height: 50px;
+}
+.userpassword{
+    width: 600px;
+    height: 300px;
+    background: cornflowerblue;
+}
+.userpassword>ul>li{
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+}
+.userpassword>ul>li>input{
+    width: 380px;
+    height: 25px;
+    font-size: 15px;
+    line-height: 50px;
+}
+

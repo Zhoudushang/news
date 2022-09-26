@@ -1,0 +1,60 @@
+body{
+    width: 1000px;
+}
+.ln{
+    padding-top: 100px;
+    width: 800px;
+    height: 100px;
+    font-size: 60px;
+    background: white;
+    text-align: center;
+    margin-left: 400px;
+
+}
+.ifo{
+    width: 800px;
+    margin-left: 400px;
+
+}
+.newsTitle{
+    border: 0px solid #E0E0E0;/*设置边框大小，样式和颜色*/
+    width: 740px;
+    height: 60px;
+    font-size: 40px;
+    text-align: center;
+    margin-left:30px;
+    margin-bottom: 10px;
+}
+.ID{
+    width: 740px;
+    height: 40px;
+    font-size: 30px;
+    margin-left:30px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 0px solid #E0E0E0;/*设置边框大小，样式和颜色*/
+}
+
+.newsContent{
+
+    width: 740px;
+    height: 700px;
+    font-size: 20px;
+    color: black;
+    margin-left:30px;
+    border: 1px solid #000000;/*设置边框大小，样式和颜色*/
+}
+.ifo button{
+    width: 60px;
+    height: 30px;
+    font-size: 15px;
+    margin-left: 200px;
+}
+.ifo button:hover{
+    cursor:pointer ;  /*设置鼠标样式为手*/
+}
+.ifo button a{
+    color: black;
+}
+
+

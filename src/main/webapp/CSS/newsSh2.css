@@ -1,0 +1,33 @@
+.ifo{
+    padding-top: 100px;
+    margin: auto;
+    width: 1000px;
+    height: 700px;
+}
+#nestle{
+    width: 1000px;
+    font-size: 30px;
+    text-align: center;
+}
+#dayat{
+    width: 1000px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.wwowoow{
+    display: none;
+}
+.content{
+    margin-left: 250px;
+    margin-top: 20px;
+    font-size: 16px;
+    width: 500px;
+    height: 300px;
+    border-color:white;
+}
+button{
+    width: 50px;
+    height: 40px;
+    margin-left: 300px;
+}

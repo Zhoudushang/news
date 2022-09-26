@@ -1,0 +1,136 @@
+/* 导航所在*/
+.mainNav{
+    /*position: relative;   !* 相对定位*!*/
+    height: 60px;
+    width: 100%;
+    min-width: 1000px;   /* 最小宽度*/
+    background: #70b8ec;
+    position: fixed;
+    opacity:0.8;  /*设置透明度*/
+}
+/* 一级导航所在盒子的属性*/
+.fist{
+    width: 1000px;
+    height: 50px;
+    margin-left: auto;      /* 居中*/
+    margin-right: auto;     /* 居中*/
+}
+/*一级导航上 li的属性*/
+.fistNav>li{
+    float: left;           /* 左浮动*/
+    font-size: 20px;
+    line-height: 60px;
+    perspective: 500px;
+    position: relative;   /* 相对定位*/
+
+}
+
+/* 一级导航a 标签的属性*/
+.fistNav a{
+    display: block;        /* 讲 a 转化成块级标签*/
+    color: #111010;
+    padding-left: 30px;    /* 内边距  文字与边框的边距*/
+    padding-right: 30px;
+    background: #70b8ec;
+    opacity:0.8;
+
+}
+
+/* 当鼠标移上去标签的变化 */
+.fistNav a:hover{
+    color: #f9f9f9;
+    background: #5cafe5;     /*改变背景色*/
+    opacity:0.8;
+}
+/* 二级导航属性*/
+.subNav{
+    position: absolute;    /*绝对定位*/
+    top: 60px;
+    left: 50%;  /*找中心*/
+    margin-left: -100px;
+    width: 200px;
+    text-align: center;
+    display:none ;   /*标签隐藏*/
+    opacity:0.8;
+}
+
+.subNav.show { /* 没有空格 */
+    display: block;
+}
+
+.subNav.show>li{
+    background: #70b8ec;
+}
+.subNav.show>li:nth-child(1){
+    animation: fadeAni 0.2s  both linear;
+}
+.subNav.show>li:nth-child(2){
+    animation: fadeAni 0.2s 0.2s both linear;
+}
+.subNav.show>li:nth-child(3){
+    animation: fadeAni 0.2s 0.4s both linear;
+}
+.subNav.show>li:nth-child(4){
+    animation: fadeAni 0.2s 0.6s both linear;
+}
+.subNav.show>li:nth-child(5){
+    animation: fadeAni 0.2s 0.8s both linear;
+}
+
+@keyframes fadeAni {
+    0%{
+        opacity: 0;
+        transform: rotateY(-120deg);
+        transform-origin: left;
+        /*  margin-left: -300px;*/
+    }
+    25%{
+        opacity: 0.25;
+        transform: rotateY(-90deg);
+        transform-origin: left;
+        /* left: -200px;*/
+    }
+    50%{
+        transform-origin: left;
+        opacity: 0.5;
+        transform: rotateY(-60deg);
+        /*   left: -100px;*/
+    }
+    75%{
+        transform-origin: left;
+        opacity: 0.75;
+        transform: rotateY(-30deg);
+        /*   left: -100px;*/
+    }
+    100%{
+        transform-origin: left;
+        opacity: 1;
+        transform: rotateY(0deg);
+        /*   left: -100px;*/
+    }
+}
+
+.usergl{
+    position: absolute;    /*绝对定位*/
+    width: 200px;
+    right: 0;
+    top: 0;
+    height: 50px;
+    background: #70b8ec;
+    float: right;
+}
+.usergl a{
+    font-size: 16px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+.tou{
+    width: 60px;
+    height: 60px;
+    background: #030303;
+    float: right;
+    border-radius:50%;
+
+}

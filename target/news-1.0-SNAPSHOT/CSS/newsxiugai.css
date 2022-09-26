@@ -1,0 +1,81 @@
+/*主题大框架*/
+.chankan{
+    width: 100%;
+    height: 1000px;
+    padding-top: 150px;
+}
+/*左侧状态信息*/
+.zhuangtai{
+    margin-left: 200px;
+    float: left;
+    width: 200px;
+    height: 160px;
+}
+.zhuangtai>span{
+    float: left;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    text-align: center;
+}
+.on{
+    width: 200px;
+    height: 60px;
+    background: #efebeb;
+}
+.zhuangtai>span:hover{
+    cursor:pointer ;
+}
+/*右侧详细信息*/
+.xinxi{
+    float: left;
+    width: 1000px;
+    height: 500px;
+    overflow: hidden;
+
+}
+.jiandan{
+    width: 700px;
+    height: 1000px;
+}
+/*已发搜索框*/
+.newsshousuo{
+
+}
+.newsshousuo .newsshousuo_sr{
+    width: 500px;
+    height: 30px;
+    margin: 20px;
+    border-color: white;
+}
+/*已发布新闻列表*/
+.yfb{
+    width: 700px;
+    height: 500px;
+    background: #efebeb;
+}
+.yfb table tr td{
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    font-size: 14px;
+}
+.yfb table tr .title{
+    width: 200px;
+}
+/*未审核新闻*/
+.wsh{
+    width: 700px;
+    height: 500px;
+    background: #efebeb;
+}
+.wsh table tr td{
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    font-size: 14px;
+}
+.wsh table tr .title{
+    width: 200px;
+}
